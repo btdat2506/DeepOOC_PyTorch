@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CodebuddyPersistentProjectState">
+    <option name="promptHistory">
+      <list>
+        <option value="Can you look at the error that occur in the AutoEncoder_PreTrain?" />
+        <option value="Can you fix the problem?&#10;&#10;C:\Users\btdat\AppData\Local\miniconda3\envs\Deep_OOC\python.exe D:\DeepOOC_PyTorch\main.py &#10;WARNING 2023-10-23 12:24:32,224 | I will output to terminal&#10;WARNING 2023-10-23 12:24:32,224 | FOO&#10;INFO 2023-10-23 12:24:32,225 | hello&#10;WARNING 2023-10-23 12:24:32,225 | BAR&#10;C:\Users\btdat\AppData\Local\miniconda3\envs\Deep_OOC\lib\site-packages\torchvision\datasets\mnist.py:65: UserWarning: train_labels has been renamed targets&#10;  warnings.warn(&quot;train_labels has been renamed targets&quot;)&#10;INFO 2023-10-23 12:24:33,023 | Testing autoencoder...&#10;Intel(R) Extension for Scikit-learn* enabled (https://github.com/intel/scikit-learn-intelex)&#10;INFO 2023-10-23 12:24:38,260 | Test set Loss: 7.97450212&#10;INFO 2023-10-23 12:24:38,343 | Test set AUC: 99.10%&#10;INFO 2023-10-23 12:24:38,343 | Autoencoder testing time: 5.320&#10;INFO 2023-10-23 12:24:38,343 | Finished testing autoencoder.&#10;INFO 2023-10-23 12:24:38,345 | Initializing center c...&#10;Traceback (most recent call last):&#10;  File &quot;D:\DeepOOC_PyTorch\main.py&quot;, line 396, in &lt;module&gt;&#10;    c = init_center_c(train_loader, net)&#10;  File &quot;D:\DeepOOC_PyTorch\main.py&quot;, line 369, in init_center_c&#10;    c[(abs(c) &lt; eps) &amp; (c &lt; 0)] = -eps&#10;TypeError: bad operand type for unary -: 'MNIST_LeNet_Network'&#10;&#10;Process finished with exit code 1&#10;" />
+        <option value="Yes." />
+      </list>
+    </option>
+  </component>
+</project>
